@@ -32,7 +32,8 @@
 
 # Before you can use regular expressions in your program, you must import the library using "import re"
 # You can use re.search() to see if a string matches a regular expression, similiar to using find() method for strings
-# You can use re.findall() to extract portions of a string that match your regular expression, similiar to a combination of find() and slicing
+# You can use re.findall() to extract portions of a string that match your regular expression, 
+# similiar to a combination of find() and slicing
 
 hand = open('mbox-short.txt')
 for line in hand:
